@@ -1,15 +1,17 @@
 <?php
  
- include('Mahasiswa.php');
+ require_once ('Mahasiswa.php');
+ require_once ('MahasiswaBaru');
+ require_once ('Dosen.php');
+ require_once ('Pegawai.php');
 
- $mahasiswa_dhiya = new Mahasiswa();
- $mahasiswa_andri = new Mahasiswa();
- $Mahasiswa_tegar = new Mahasiswa();
+ $dhiya = new Mahasiswa('H1101191053','DHIYA ULHAQ','2001-10-31'.'PRIA');
 
- $mahasiswa_dhiya->nim = 1;
- $mahasiswa_dhiya->nama = 1;
- $mahasiswa_dhiya->tanggal_lahir = 1;
- $mahasiswa_dhiya->jenis_kelamin = 1;
+ $andri = new Mahasiswa('H1101191070','ANDRY MAULANA','2001-02-01','Pria');
 
- $mahasiswa_dhiya->tampilkanAngkatan();
- $mahasiswa_dhiya->tampilkanUmur();
+ $bayu = new Mahasiswa('H1101191047','BAYU FIRMADI','2001-03-04','Pria');
+
+ $dhiya->tampilkanAngkatan();
+ $dhiya->tampilkanUmur();
+
+ ?>
