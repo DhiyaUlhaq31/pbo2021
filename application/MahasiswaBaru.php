@@ -1,5 +1,6 @@
 <?php
-require_once ('Mahasiswa.php');
+
+namespace application\backend;
 
 class MahasiswaBaru extends Mahasiswa
 {
@@ -25,4 +26,11 @@ class MahasiswaBaru extends Mahasiswa
     {
         
     }
+}
+
+namespace application\frontend;
+
+class Mahasiswa
+{
+    
 }

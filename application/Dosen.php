@@ -1,5 +1,6 @@
 <?php
-require_once 'Mahasiswa.php';
+
+namespace application\backend;
 
 class Dosen extends Pegawai
 {
@@ -35,4 +36,11 @@ class Dosen extends Pegawai
     {
 
     }
+}
+
+namespace application\frontend;
+
+class Dosen
+{
+    
 }

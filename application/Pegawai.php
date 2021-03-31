@@ -1,5 +1,6 @@
 <?php
-require_once ('Mahasiswa.php');
+
+namespace application\backend;
 
 class Pegawai
 {
@@ -52,4 +53,11 @@ class Pegawai
     {
 
     }
+}
+
+namespace application\frontend;
+
+class Pegawai
+{
+    
 }

@@ -1,4 +1,7 @@
 <?php
+
+namespace application\backend;
+
 class Mahasiswa
 {
     protected $nim;
@@ -69,5 +72,12 @@ class Mahasiswa
         echo $this->nama;
     }
 
+}
+
+namespace application\frontend;
+
+class Mahasiswa 
+{
+    
 }
 ?>
