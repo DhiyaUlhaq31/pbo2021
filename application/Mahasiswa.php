@@ -1,6 +1,6 @@
 <?php
 
-namespace application\backend;
+namespace App;
 
 class Mahasiswa
 {
@@ -71,13 +71,5 @@ class Mahasiswa
     {
         echo $this->nama;
     }
-
-}
-
-namespace application\frontend;
-
-class Mahasiswa 
-{
     
-}
 ?>

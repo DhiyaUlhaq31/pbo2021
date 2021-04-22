@@ -1,0 +1,16 @@
+{
+    "name": "asus/pbo2021",
+    "description": "Pratikum PBO",
+    "authors": [
+        {
+            "name": "Dhiya Ulhaq",
+            "email": "dhiyaulhaq232@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\": "application"
+        }
+    }
+}
