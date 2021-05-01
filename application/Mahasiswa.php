@@ -8,6 +8,9 @@ class Mahasiswa
     protected $nama;
     protected $tanggal_lahir;
     protected $jenis_kelamin;
+    const AKTIF = 1;
+    const NON_AKTIF = 0;
+    public static $status = self::aktif;
     
     function __construct($nim,$nama,$tgl,$jk) 
     {
@@ -72,4 +75,23 @@ class Mahasiswa
         echo $this->nama;
     }
     
+    public static function bergerak()
+    {
+        echo "agen solusi, bukan agen perubahan";
+    }
+
+    public function tuntaskan()
+    {
+        $this->bergerak();
+        echo "memperbaiki menjadi lebih baik";
+    }
+
+    public static function hitungSks($sks,$bobot)
+    {
+        $total_sks = $sks * $bobot;
+        echo "Bobot Bernilai = ".$bobot.;
+        echo "Total sks dengan bobot berniali ".$bobot." adalah = "$.sks. SKS;
+        echo "Total sks x bobot =";
+        return $total_sks;
+    }
 ?>

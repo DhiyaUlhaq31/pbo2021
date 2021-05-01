@@ -24,6 +24,6 @@ class MahasiswaBaru extends Mahasiswa
 
     public function bayarGedung()
     {
-        
+      echo "$this->username Anda telah membayar Gedung";   
     }
 }
